@@ -41,7 +41,7 @@ categories: css viewport unit
 }
 {% endhighlight %}
 
-##Suporte Navegadores
+##Suporte Navegadores:
 IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
 Mais detalhes sobre suporte acesse [caniuse][caniuse] 
 

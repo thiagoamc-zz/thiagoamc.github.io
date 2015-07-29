@@ -5,8 +5,8 @@
     <description></description>
     <link>http://thiagoamc.github.io//</link>
     <atom:link href="http://thiagoamc.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 14:33:18 -0300</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 14:33:18 -0300</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2015 14:39:04 -0300</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2015 14:39:04 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -40,7 +40,7 @@
 	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vmax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;suporte-navegadores&quot;&gt;Suporte Navegadores&lt;/h2&gt;
+&lt;h2 id=&quot;suporte-navegadores&quot;&gt;Suporte Navegadores:&lt;/h2&gt;
 &lt;p&gt;IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
 Mais detalhes sobre suporte acesse &lt;a href=&quot;http://caniuse.com/#feat=viewport-units&quot;&gt;caniuse&lt;/a&gt;&lt;/p&gt;
 
