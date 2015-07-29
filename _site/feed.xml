@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thiago Coelho</title>
+    <description></description>
+    <link>http://thiagoamc.github.io//</link>
+    <atom:link href="http://thiagoamc.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jul 2015 14:33:18 -0300</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2015 14:33:18 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>CSS Viewport Unit</title>
+        <description>&lt;h2 id=&quot;vw&quot;&gt;vw&lt;/h2&gt;
+
+&lt;h2 id=&quot;vh&quot;&gt;vh&lt;/h2&gt;
+
+&lt;p&gt;É a altura do viewport, supondo que estivemos usando um celular de medida 320px x 480px, 100vh seria equivalente a 100% da altura do viewport. Cada unidade do vh é equivalente a 1% de sua altura.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vh&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;vmin&quot;&gt;vmin&lt;/h2&gt;
+
+&lt;p&gt;É a menor das unidades utilizadas no viewport, supondo que temos um celular 320px x 480px, o vmin seria 320px onde 100vmin equivale aos 320px ou 100% do viewport.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vmin&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;vmax&quot;&gt;vmax&lt;/h2&gt;
+
+&lt;p&gt;É a maior das unidades utilizadas no viewport, supondo que temos um celular 320px x 480px, o vmax seria 480px onde 100vamx equivale aos 480px ou 100% do viewport.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vmax&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vmax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;suporte-navegadores&quot;&gt;Suporte Navegadores&lt;/h2&gt;
+&lt;p&gt;IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
+Mais detalhes sobre suporte acesse &lt;a href=&quot;http://caniuse.com/#feat=viewport-units&quot;&gt;caniuse&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;referncias&quot;&gt;Referências:&lt;/h2&gt;
+&lt;p&gt;Documentação W3C &lt;a href=&quot;https://drafts.csswg.org/css-values-3/&quot;&gt;W3C Module Level 3&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 29 Jul 2015 00:00:00 -0300</pubDate>
+        <link>http://thiagoamc.github.io//css/viewport/unit/2015/07/29/css-viewport-units.html</link>
+        <guid isPermaLink="true">http://thiagoamc.github.io//css/viewport/unit/2015/07/29/css-viewport-units.html</guid>
+        
+        
+        <category>css</category>
+        
+        <category>viewport</category>
+        
+        <category>unit</category>
+        
+      </item>
+    
+  </channel>
+</rss>
