@@ -6,7 +6,19 @@ categories: css viewport unit
 ---
 
 ##vw
+É a largura do viewport, supondo que estivemos usando um celular de medida 320px x 480px, 100vw seria equivalente a 100% da altura do viewport. Cada unidade do vw é equivalente a 1% de sua largura.
 
+{% highlight ruby %}
+.ex-vh {
+	width: 100vw;
+	height: 100vh;
+}
+{% endhighlight %}
+
+<iframe id="cp_embed_jsFva" src="//codepen.io/snaptin/embed/NqEzrG?height=268&amp;theme-id=0&amp;slug-hash=jsFva&amp;default-tab=result&amp;user=snaptin" scrolling="no" frameborder="0" height="268" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;"></iframe>
+
+###Exemplos viewport height
+[Codepen](http://codepen.io/anon/pen/NqEzrG)
 
 ##vh
 
@@ -18,6 +30,8 @@ categories: css viewport unit
 	height: 100vh;
 }
 {% endhighlight %}
+
+###Exemplos viewport height
 
 ##vmin
 
@@ -42,6 +56,7 @@ categories: css viewport unit
 {% endhighlight %}
 
 ##Suporte Navegadores:
+No IE9 apenas as unidades vmin 
 IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
 Mais detalhes sobre suporte acesse [caniuse][caniuse] 
 

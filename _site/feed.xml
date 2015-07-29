@@ -5,13 +5,24 @@
     <description></description>
     <link>http://thiagoamc.github.io//</link>
     <atom:link href="http://thiagoamc.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jul 2015 14:39:04 -0300</pubDate>
-    <lastBuildDate>Wed, 29 Jul 2015 14:39:04 -0300</lastBuildDate>
+    <pubDate>Wed, 29 Jul 2015 14:58:46 -0300</pubDate>
+    <lastBuildDate>Wed, 29 Jul 2015 14:58:46 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>CSS Viewport Unit</title>
         <description>&lt;h2 id=&quot;vw&quot;&gt;vw&lt;/h2&gt;
+&lt;p&gt;É a largura do viewport, supondo que estivemos usando um celular de medida 320px x 480px, 100vw seria equivalente a 100% da altura do viewport. Cada unidade do vw é equivalente a 1% de sua largura.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vh&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;iframe id=&quot;cp_embed_jsFva&quot; src=&quot;//codepen.io/snaptin/embed/NqEzrG?height=268&amp;amp;theme-id=0&amp;amp;slug-hash=jsFva&amp;amp;default-tab=result&amp;amp;user=snaptin&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; height=&quot;268&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe undefined&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;exemplos-viewport-height&quot;&gt;Exemplos viewport height&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://codepen.io/anon/pen/NqEzrG&quot;&gt;Codepen&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;vh&quot;&gt;vh&lt;/h2&gt;
 
@@ -21,6 +32,8 @@
 	&lt;span class=&quot;ss&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;ss&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vh&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;exemplos-viewport-height-1&quot;&gt;Exemplos viewport height&lt;/h3&gt;
 
 &lt;h2 id=&quot;vmin&quot;&gt;vmin&lt;/h2&gt;
 
@@ -41,7 +54,8 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;suporte-navegadores&quot;&gt;Suporte Navegadores:&lt;/h2&gt;
-&lt;p&gt;IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
+&lt;p&gt;No IE9 apenas as unidades vmin 
+IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
 Mais detalhes sobre suporte acesse &lt;a href=&quot;http://caniuse.com/#feat=viewport-units&quot;&gt;caniuse&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;referncias&quot;&gt;Referências:&lt;/h2&gt;

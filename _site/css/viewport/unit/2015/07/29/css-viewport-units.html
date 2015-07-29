@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>CSS Viewport Unit</title>
-  <meta name="description" content="vw">
+  <meta name="description" content="vwÉ a largura do viewport, supondo que estivemos usando um celular de medida 320px x 480px, 100vw seria equivalente a 100% da altura do viewport. Cada unidad...">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://thiagoamc.github.io//css/viewport/unit/2015/07/29/css-viewport-units.html">
@@ -63,6 +63,17 @@
 
   <article class="post-content">
     <h2 id="vw">vw</h2>
+<p>É a largura do viewport, supondo que estivemos usando um celular de medida 320px x 480px, 100vw seria equivalente a 100% da altura do viewport. Cada unidade do vw é equivalente a 1% de sua largura.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">.</span><span class="n">ex</span><span class="o">-</span><span class="n">vh</span> <span class="p">{</span>
+	<span class="ss">width</span><span class="p">:</span> <span class="mi">100</span><span class="n">vw</span><span class="p">;</span>
+	<span class="ss">height</span><span class="p">:</span> <span class="mi">100</span><span class="n">vh</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<iframe id="cp_embed_jsFva" src="//codepen.io/snaptin/embed/NqEzrG?height=268&amp;theme-id=0&amp;slug-hash=jsFva&amp;default-tab=result&amp;user=snaptin" scrolling="no" frameborder="0" height="268" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;"></iframe>
+
+<h3 id="exemplos-viewport-height">Exemplos viewport height</h3>
+<p><a href="http://codepen.io/anon/pen/NqEzrG">Codepen</a></p>
 
 <h2 id="vh">vh</h2>
 
@@ -72,6 +83,8 @@
 	<span class="ss">width</span><span class="p">:</span> <span class="mi">100</span><span class="n">vw</span><span class="p">;</span>
 	<span class="ss">height</span><span class="p">:</span> <span class="mi">100</span><span class="n">vh</span><span class="p">;</span>
 <span class="p">}</span></code></pre></div>
+
+<h3 id="exemplos-viewport-height-1">Exemplos viewport height</h3>
 
 <h2 id="vmin">vmin</h2>
 
@@ -92,7 +105,8 @@
 <span class="p">}</span></code></pre></div>
 
 <h2 id="suporte-navegadores">Suporte Navegadores:</h2>
-<p>IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
+<p>No IE9 apenas as unidades vmin 
+IE 10+, Firefox 19+, Chrome 26+, Safari 7+, Opera 15+, Android 4.4+, iOS 6+
 Mais detalhes sobre suporte acesse <a href="http://caniuse.com/#feat=viewport-units">caniuse</a></p>
 
 <h2 id="referncias">Referências:</h2>
